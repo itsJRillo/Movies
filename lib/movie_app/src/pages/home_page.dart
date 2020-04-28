@@ -45,12 +45,12 @@ class HomePage extends StatelessWidget {
 
   Widget _footer(BuildContext context) {
     return Container(
-        width: 500,
+        width: double.infinity,
         child: Column(
           children: <Widget>[
             Text(
               "Populares",
-              style: Theme.of(context).textTheme.subhead,
+              style: Theme.of(context).textTheme.subtitle,
             ),
             FutureBuilder(
               future: peliculasProvider.getPopulares(),

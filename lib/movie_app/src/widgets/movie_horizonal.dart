@@ -25,6 +25,7 @@ class MovieHorizontal extends StatelessWidget {
             FadeInImage(
               image: NetworkImage(pelicula.getPosterImg()),
               placeholder: AssetImage("/assets/img/loading.gif"),
+              fit: BoxFit.cover,
             )
           ],
         ),

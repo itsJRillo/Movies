@@ -66,7 +66,7 @@ class Pelicula {
 
   getPosterImg() {
     if (posterPath == null) {
-      return;
+      return "https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/1/8/1/7/217181-6-eng-GB/Hannon-Transport-Ltd-SIC-Food-20132_news_large.jpg";
     } else {
       return "https://image.tmdb.org/t/p/w500/$posterPath";
     }
