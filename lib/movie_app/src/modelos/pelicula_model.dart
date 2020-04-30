@@ -71,4 +71,28 @@ class Pelicula {
       return "https://image.tmdb.org/t/p/w500/$posterPath";
     }
   }
+
+  getBackGroundImg() {
+    if (backdropPath == null) {
+      return "https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/1/8/1/7/217181-6-eng-GB/Hannon-Transport-Ltd-SIC-Food-20132_news_large.jpg";
+    } else {
+      return "https://image.tmdb.org/t/p/w500/$backdropPath";
+    }
+  }
+
+  getVideo() {
+    if (video == null) {
+      return "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbDUiSSsXS-bdt6PGGRvZM_OjMnMUbU3PhzKj9pa05Py-8_VOj&usqp=CAU";
+    } else {
+      return "https://image.tmdb.org/t/p/w500/$backdropPath";
+    }
+  }
 }
+
+
+
+
+  
+
+
+
